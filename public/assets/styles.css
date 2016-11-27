@@ -1,0 +1,129 @@
+#gb{
+ position: absolute;
+ top:15px;
+ -webkit-transition:opacity 130ms;
+ width: 100%;
+
+}
+div .link{
+  align-items: center;
+  display: flex;
+  min-width: 224px;
+  z-index: 987;
+  align-items: center;
+  flex-basis: auto;
+  flex-basis: auto;
+  flex-shrink: 1;
+  flex-grow: 1;
+  float: right;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-stretch: normal;
+  justify-content: flex-end;
+  height: 30.4px;
+  margin-left: 0px;
+  margin-right:0px;
+  order=1;
+  padding-left:30px;
+  padding-right: 90px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+
+
+}
+
+
+img#logo {
+  align-items: center;
+  margin-top: 50px;
+  height: 400px;
+  padding-bottom: 5px;
+  padding-left: 100px;
+  text-align: -webkit-center;
+  max-width: 100%
+  
+}
+
+
+div #search {
+  margin-left: 200px;
+  margin-top: 0px;
+  text-align: -webkit-center;
+}
+
+input[type='text']{
+  width:60%;
+  padding: 10px;
+  border: :1px;
+  border-color: #417da3;
+
+}
+
+div .mail{
+  display: inline-block;
+  padding-left:15px;
+  vertical-align: middle;
+  text-align: right;
+  width: 33.95px;
+}
+.gmailAddress{
+  font-family: arial, sans-serif;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  opacity: 0.75;
+  text-align: right;
+  vertical-align: middle;
+  text-decoration: none;
+  width: 33.95px;
+
+}
+div .image{
+  display: inline-block;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: normal;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 15px;
+  text-align: right;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 26px;
+}
+.imagel{
+  cursor: auto;
+  display: inline-block;
+  opacity: 0.75;
+  line-height: 25px;
+  text-align: right;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+
+}
+@media screen and (max-width: 740px){
+  div #search {
+    margin-left: 200px;
+    margin-top: -75px;
+    text-align: -webkit-center;
+  }
+   #logo {
+  margin-top: 50px;
+  height: 400px;
+  padding-bottom: 5px;
+  padding-left: 200px;
+  text-align: -webkit-center;
+
+  }
+}
